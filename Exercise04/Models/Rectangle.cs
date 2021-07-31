@@ -13,8 +13,8 @@ namespace Exercise04.Models
    
     public class Rectangle : Shape
     {
-
-        public double area()
+        override
+        public double Area()
         { 
             var myarea =  this.Height * this.Width;
             return myarea;

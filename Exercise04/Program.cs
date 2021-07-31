@@ -15,16 +15,16 @@ namespace Exercise04
 
             var listOfShapes = new List<Shape>
             {
-//new Circle
-//{
-//    Color="Red",Radius=20.5,
-    
-//},
-                
+        new Circle
+        {
+            Color="Red",Radius=20.5,
+
+        },
+
                 new Rectangle
-{
-    Color="Blue",Height=45.0,Width=18.0
-}
+            {
+                Color="Blue",Height=45.0,Width=18.0
+            }
             };
 
 

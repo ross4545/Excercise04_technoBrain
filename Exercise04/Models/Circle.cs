@@ -9,12 +9,15 @@ namespace Exercise04.Models
     [Serializable]
     public class Circle:Shape
     {
-
-        public double area()
+        static double pi = 3.14;
+        override
+        public double Area()
         {
-            double pi = 3.14;
+           
             var myarea = pi * this.Radius * this.Radius;
             return myarea;
         }
+     //   override
+        //public double Area { get; set; } = pi * this.Radius * this.Radius;
     }
 }
