@@ -9,8 +9,6 @@ namespace Exercise04.Models
     [XmlInclude(typeof(Shape))]
     [Serializable]
 
-  
-   
     public class Rectangle : Shape
     {
         override

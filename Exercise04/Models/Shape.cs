@@ -7,6 +7,8 @@ namespace Exercise04.Models
 {
      [Serializable]
     [XmlRoot(ElementName = "Shape")]
+    [XmlInclude(typeof(Circle))]
+    [XmlInclude(typeof(Rectangle))]
     public abstract class Shape
     {
        public string Color { get; set; }

@@ -5,7 +5,7 @@ using System.Xml.Serialization;
 
 namespace Exercise04.Models
 {
-    [XmlInclude(typeof(Shape))]
+    
     [Serializable]
     public class Circle:Shape
     {

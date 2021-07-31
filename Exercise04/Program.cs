@@ -37,7 +37,7 @@ namespace Exercise04
 
             foreach(Shape item in loadShapesXml)
             {
-                Console.WriteLine("{0} is {1} and has area of {2:N2}", item.GetType(),item.Color,item.Area());
+                Console.WriteLine("{0} is {1} and has area of {2:N2}", item.GetType().Name,item.Color,item.Area());
             }
         }
 
